@@ -1,0 +1,25 @@
+.menu {
+	padding: 0px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #1E90FF;
+	font-size: 22px;
+}
+.menu>li>a {
+	color: white;
+}
+.header>h1 {
+	margin: 10px;
+}
+.menu>li {
+	float: left;
+	padding: 20px;
+}
+
+.content {
+	margin: 10px;
+}
+
+.error {
+	font-weight: bold;
+}
