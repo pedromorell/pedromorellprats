@@ -13,13 +13,21 @@
 }
 .menu>li {
 	float: left;
-	padding: 20px;
 }
 
 .content {
-	margin: 10px;
+	margin: 30px;
 }
 
 .error {
 	font-weight: bold;
+}
+
+li.elemento-menu:hover {
+	background-color: #0075ea;
+}
+
+li.elemento-menu>a {
+	display: block;
+	padding: 20px;
 }

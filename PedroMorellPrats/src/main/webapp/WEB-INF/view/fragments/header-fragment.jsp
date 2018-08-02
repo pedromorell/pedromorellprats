@@ -19,8 +19,8 @@
 	<div class="header">
 		<h1>Pedro Morell Prats</h1>
 		<ul class="menu">
-			<li><a href="/">Home</a></li>
-			<li><a href="/cv">CV</a></li>
-			<li><a href="/music">Music</a></li>
+			<li class="elemento-menu"><a href="/">Home</a></li>
+			<li class="elemento-menu"><a href="/cv">CV</a></li>
+			<li class="elemento-menu"><a href="/music">Music</a></li>
 		</ul>
 	</div>
