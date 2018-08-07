@@ -1,22 +1,30 @@
+html {
+	font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+	margin-bottom: 0.7em;
+}
+
 .menu {
-	padding: 0px;
+	padding: 0;
 	list-style-type: none;
 	overflow: hidden;
 	background-color: #1E90FF;
-	font-size: 22px;
+	font-size: 1.4em;
 }
 .menu>li>a {
 	color: white;
 }
 .header>h1 {
-	margin: 10px;
+	margin: 0.5em;
 }
 .menu>li {
 	float: left;
 }
 
 .content {
-	margin: 30px;
+	margin: 1.5em;
 }
 
 .error {
@@ -29,5 +37,35 @@ li.elemento-menu:hover {
 
 li.elemento-menu>a {
 	display: block;
-	padding: 20px;
+	padding: 1em;
+}
+
+.contact-form-input {
+	width: 100%;
+	padding: 0.2em;
+}
+
+.contact-form-submit {
+	display: block;
+	margin: auto;
+	margin-top: 1.2em;
+	width: 8em;
+	padding: 0.2em;
+	background-color: #1E90FF;
+	color: white;
+	border: 0;
+	font-size: 1.4em;
+	border-radius: 0.1em;
+}
+
+textarea.contact-form-input{
+	height: 5em;	
+}
+
+.contact-form-submit:focus  {
+	background-color: #0075ea;
+}
+
+.artist-index {
+	list-style-type: none;
 }

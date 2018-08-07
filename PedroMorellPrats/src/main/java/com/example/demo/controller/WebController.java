@@ -12,5 +12,15 @@ public class WebController {
 	String home(ModelMap model) {
 		return "home";
 	}
+	
+	@RequestMapping(value="/music", method = RequestMethod.GET) 
+	String music(ModelMap model) {
+		return "music";
+	}
+	
+	@RequestMapping(value="/cv", method = RequestMethod.GET) 
+	String cv(ModelMap model) {
+		return "cv";
+	}
 
 }
